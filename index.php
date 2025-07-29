@@ -84,18 +84,18 @@
 
 			 <ul>
 				<li><a href="index.php"><i class="icon-home"></i>Home</a></li>
-				<li><a href="product.php"><i class="icon-th-list"></i>Product</a>
+				<li><a href="product.php"><i class="icon-th-list"></i>Category</a>
 				<li><a href="aboutus.php"><i class="icon-bookmark"></i>About Us</a></li>
 				<li><a href="contactus.php"><i class="icon-inbox"></i>Contact Us</a></li>
 				<li><a href="privacy.php"><i class="icon-info-sign"></i>Privacy Policy</a></li>
 				<li><a href="faqs.php"><i class="icon-question-sign"></i>FAQs</a></li>
 			</ul>
 	</div>
-
+<div class="hero">
 	<div id="carousel">
 		<div id="myCarousel" class="carousel slide">
 			<div class="carousel-inner">
-				<div class="active item" style="padding:0; border-bottom:0 solid #111;"><img src="img/banner1.jpg" class="carousel"></div>
+				<div class="active item" style="padding:0; border-bottom:0 solid #111;"><img src="img/banner2.jpg" class="carousel"></div>
 				<div class="item" style="padding:0; border-bottom:0 solid #111;"><img src="img/banner2.jpg" class="carousel"></div>
 				<div class="item" style="padding:0; border-bottom:0 solid #111;"><img src="img/banner3.jpg" class="carousel"></div>
 			</div>
@@ -103,17 +103,15 @@
 				<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
 		</div>
 	</div>
-
-
-	<div id="video">
+	<!-- <div id="video">
 		<video controls autoplay width="445px" height="300px">
 			<source src="video/commercial.mp4" type="video/mp4">
 		</video>
-	</div>
-
+	</div> -->
+</div>
 
 	<div id="content">
-		<div id="product" style="position:relative; margin-top:30%;">
+		<div id="product" style="position:relative; margin-top:5%;">
 			<center><h2><legend>Feature Items</legend></h2></center>
 			<br />
 

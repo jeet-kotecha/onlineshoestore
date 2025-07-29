@@ -102,14 +102,14 @@
 
 			 <ul>
 				<li><a href="home.php"><i class="icon-home"></i>Home</a></li>
-				<li><a href="product1.php"><i class="icon-th-list"></i>Product</a>
+				<li><a href="product1.php"><i class="icon-th-list"></i>Category</a>
 				<li><a href="aboutus1.php"><i class="icon-bookmark"></i>About Us</a></li>
 				<li><a href="contactus1.php"><i class="icon-inbox"></i>Contact Us</a></li>
 				<li><a href="privacy1.php"><i class="icon-info-sign"></i>Privacy Policy</a></li>
 				<li><a href="faqs1.php"><i class="icon-question-sign"></i>FAQs</a></li>
 			</ul>
 		</div>
-
+<div class="hero">
 		<div id="carousel">
 			<div id="myCarousel" class="carousel slide">
 				<div class="carousel-inner">
@@ -122,13 +122,13 @@
 			</div>
 		</div>
 
-
+<!-- 
 		<div id="video">
 			<video controls autoplay width="445px" height="300px">
 				<source src="video/commercial.mp4" type="video/mp4">
 			</video>
-		</div>
-
+		</div> -->
+</div>
 		<div id="product" style="position:relative; margin-top:30%;">
 			<center><h2><legend>Featured Items</legend></h2></center>
 			<br />

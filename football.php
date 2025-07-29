@@ -104,7 +104,7 @@
 
 			 <ul>
 				<li><a href="index.php"><i class="icon-home"></i>Home</a></li>
-				<li><a href="product.php"><i class="icon-th-list"></i>Product</a>
+				<li><a href="product.php"><i class="icon-th-list"></i>Category</a>
 				<li><a href="aboutus.php"><i class="icon-bookmark"></i>About Us</a></li>
 				<li><a href="contactus.php"><i class="icon-inbox"></i>Contact Us</a></li>
 				<li><a href="privacy.php"><i class="icon-info-sign"></i>Privacy Policy</a></li>
@@ -114,11 +114,11 @@
 
 	<div class="nav1">
 		<ul>
-			<li><a href="product.php">Basketball</a></li>
+			<li><a href="product.php">Men</a></li>
 			<li>|</li>
-			<li><a href="football.php" class="active" style="color:#111;">Football</a></li>
+			<li><a href="football.php" class="active" style="color:#111;">Women</a></li>
 			<li>|</li>
-			<li><a href="running.php">Running</a></li>
+			<li><a href="running.php">Kids</a></li>
 		</ul>
 	</div>
 

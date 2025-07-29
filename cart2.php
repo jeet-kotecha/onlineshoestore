@@ -98,7 +98,7 @@
 	<div class="nav">
 			 <ul>
 				<li><a href="home.php">   <i class="icon-home"></i>Home</a></li>
-				<li><a href="product.php"> 			 <i class="icon-th-list"></i>Product</a></li>
+				<li><a href="product.php"> 			 <i class="icon-th-list"></i>Category</a></li>
 				<li><a href="aboutus.php">   <i class="icon-bookmark"></i>About Us</a></li>
 			</ul>
 	</div>

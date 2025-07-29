@@ -98,7 +98,7 @@
 
 			 <ul>
 				<li><a href="home.php"><i class="icon-home"></i>Home</a></li>
-				<li><a href="product1.php"><i class="icon-th-list"></i>Product</a>
+				<li><a href="product1.php"><i class="icon-th-list"></i>Category</a>
 				<li><a href="aboutus1.php"><i class="icon-bookmark"></i>About Us</a></li>
 				<li><a href="contactus1.php"><i class="icon-inbox"></i>Contact Us</a></li>
 				<li><a href="privacy1.php"><i class="icon-info-sign"></i>Privacy Policy</a></li>
@@ -108,11 +108,11 @@
 
 		<div class="nav1">
 			<ul>
-				<li><a href="product1.php">Basketball</a></li>
+				<li><a href="product1.php">Men</a></li>
 				<li>|</li>
-				<li><a href="football1.php">Football</a></li>
+				<li><a href="football1.php">Women</a></li>
 				<li>|</li>
-				<li><a href="running1.php" class="active" style="color:#111;">Running</a></li>
+				<li><a href="running1.php" class="active" style="color:#111;">Kids</a></li>
 			</ul>
 				<a href="cart.php"><button class="btn btn-inverse" style="right:1%; position:fixed; top:10%;"><i class="icon-shopping-cart icon-white"></i> View Cart</button></a>
 		</div>
