@@ -8,7 +8,7 @@ $paypal_id='yhannaki@gmail.com'; // Business email ID
 ?>
 <html>
 <head>
-	<title>Online Shoe Store</title>
+	<title>ShoeBuzz</title>
 	<link rel="icon" href="img/logo.jpg" />
 	<link rel = "stylesheet" type = "text/css" href="css/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -31,7 +31,7 @@ $paypal_id='yhannaki@gmail.com'; // Business email ID
 
 	<div id="header">
 		<img src="img/logo.jpg">
-		<label>Online Shoe Store</label>
+		<label>ShoeBuzz</label>
 
 			<?php
 				$id = (int) $_SESSION['id'];
@@ -198,7 +198,7 @@ $paypal_id='yhannaki@gmail.com'; // Business email ID
 	<div id="footer">
 		<div class="foot">
 			<!-- <label style="font-size:17px;"> Copyrght &copy; </label> -->
-			<p style="font-size:13px;"> Copyright &copy; Online Shoe Store Inc. 2025 Brought To You by Prem Prem</a></p>		</div>
+			<p style="font-size:13px;"> Copyright &copy; Online Shoe Store Inc. 2025 Brought To You by <b>Prem & jeet</b></a></p>		</div>
 		</div>
 
 			<div id="foot">

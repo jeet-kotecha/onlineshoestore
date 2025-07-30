@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Online Shoe Store</title>
+	<title>ShoeBuzz</title>
 	<link rel = "stylesheet" type = "text/css" href="css/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<script src="js/bootstrap.js"></script>
@@ -26,7 +26,7 @@
 <body>
 	<div id="header">
 		<img src="img/logo.jpg">
-		<label>Online Shoe Store</label>
+		<label>ShoeBuzz</label>
 
 			<?php
 				$id = (int) $_SESSION['id'];
@@ -113,7 +113,7 @@
 		<div id="carousel">
 			<div id="myCarousel" class="carousel slide">
 				<div class="carousel-inner">
-					<div class="active item" style="padding:0; border-bottom:0 solid #111;"><img src="img/banner1.jpg" class="carousel"></div>
+					<div class="active item" style="padding:0; border-bottom:0 solid #111;"><img src="img/banner2.jpg" class="carousel"></div>
 					<div class="item" style="padding:0; border-bottom:0 solid #111;"><img src="img/banner2.jpg" class="carousel"></div>
 					<div class="item" style="padding:0; border-bottom:0 solid #111;"><img src="img/banner3.jpg" class="carousel"></div>
 				</div>
@@ -129,7 +129,7 @@
 			</video>
 		</div> -->
 </div>
-		<div id="product" style="position:relative; margin-top:30%;">
+		<div id="product" style="position:relative; margin-top:5%;">
 			<center><h2><legend>Featured Items</legend></h2></center>
 			<br />
 
@@ -175,7 +175,7 @@
 	<div id="footer">
 		<div class="foot">
 			<!-- <label style="font-size:17px;"> Copyrght &copy; </label> -->
-			<p style="font-size:13px;"> Copyright &copy; Online Shoe Store Inc. 2025 Brought To You by Prem Prem</a></p>
+			<p style="font-size:13px;"> Copyright &copy; Online Shoe Store Inc. 2025 Brought To You by <b>Prem & jeet</b></a></p>
 		</div>
 
 			<div id="foot">
