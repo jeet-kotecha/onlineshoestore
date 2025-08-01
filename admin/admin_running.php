@@ -93,7 +93,7 @@
 								<td><input type="number" name="qty" placeholder="No. of Stock" style="width:250px;" required></td>
 							</tr>
 							<tr>
-								<td><input type="hidden" name="category" value="basketball"></td>
+								<td><input type="hidden" name="category" value="kids"></td>
 							</tr>
 						</table>
 					</center>
@@ -186,7 +186,7 @@
 				<tbody>
 				<?php
 
-					$query = $conn->query("SELECT * FROM `product` WHERE category='Running' ORDER BY product_id DESC") or die(mysqli_error());
+					$query = $conn->query("SELECT * FROM `product` WHERE category='kids' ORDER BY product_id DESC") or die(mysqli_error());
 					while($fetch = $query->fetch_array())
 						{
 						$id = $fetch['product_id'];
