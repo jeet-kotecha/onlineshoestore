@@ -112,7 +112,7 @@
 								<td><input type="number" name="qty" placeholder="No. of Stock" style="width:250px;" required></td>
 							</tr>
 							<tr>
-								<td><input type="hidden" name="category" value="basketball"></td>
+								<td><input type="hidden" name="category" value="Men"></td>
 							</tr>
 						</table>
 					</center>
@@ -173,8 +173,8 @@
 				<ul>
 					<li><a href="admin_feature.php "style="font-size:15px; margin-left:15px;">Features</a></li>
 					<li><a href="admin_product.php "style="font-size:15px; margin-left:15px;">Men</a></li>
-					<li><a href="admin_football.php" style="font-size:15px; margin-left:15px;">Women</a></li>
-					<li><a href="admin_running.php"style="font-size:15px; margin-left:15px;">Kids</a></li>
+					<li><a href="admin_Women.php" style="font-size:15px; margin-left:15px;">Women</a></li>
+					<li><a href="admin_Kids.php"style="font-size:15px; margin-left:15px;">Kids</a></li>
 				</ul>
 			</li>
 			<li><a href="transaction.php">Transactions</a></li>

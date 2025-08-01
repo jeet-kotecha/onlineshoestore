@@ -113,7 +113,7 @@
 	<div id="footer">
 		<div class="foot">
 		<!--	<label style="font-size:17px;"> Copyrght &copy; </label> -->
-			<p style="font-size:17px;">Copyrght &copy; Online Shoe Store Inc. 2025 Brought To You by <b>Prem & jeet</b></p>
+			<p style="font-size:17px;">Copyrght &copy; Online Shoe Store Inc. 2025 Brought To You by <b>Prem & Jeet</b></p>
 		</div>
 
 			<div id="foot">

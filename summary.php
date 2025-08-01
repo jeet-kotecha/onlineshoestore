@@ -198,7 +198,7 @@ $paypal_id='yhannaki@gmail.com'; // Business email ID
 	<div id="footer">
 		<div class="foot">
 			<!-- <label style="font-size:17px;"> Copyrght &copy; </label> -->
-			<p style="font-size:13px;"> Copyright &copy; Online Shoe Store Inc. 2025 Brought To You by <b>Prem & jeet</b></a></p>		</div>
+			<p style="font-size:13px;"> Copyright &copy; Online Shoe Store Inc. 2025 Brought To You by <b>Prem & Jeet</b></a></p>		</div>
 		</div>
 
 			<div id="foot">

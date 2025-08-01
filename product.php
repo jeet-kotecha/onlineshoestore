@@ -116,9 +116,9 @@
 		<ul>
 			<li><a href="product.php" class="active" style="color:#111;">Men</a></li>
 			<li>|</li>
-			<li><a href="football.php">Women</a></li>
+			<li><a href="Women.php">Women</a></li>
 			<li>|</li>
-			<li><a href="running.php">Kids</a></li>
+			<li><a href="Kids.php">Kids</a></li>
 		</ul>
 
 	</div>
@@ -131,7 +131,7 @@
 			<?php
 			include ('function/addcart.php');
 
-				$query = $conn->query("SELECT *FROM product WHERE category='basketball' ORDER BY product_id DESC") or die (mysqli_error());
+				$query = $conn->query("SELECT *FROM product WHERE category='Men' ORDER BY product_id DESC") or die (mysqli_error());
 
 					while($fetch = $query->fetch_array())
 						{
@@ -172,7 +172,7 @@
 	<div id="footer">
 		<div class="foot">
 			<!-- <label style="font-size:17px;"> Copyrght &copy; </label> -->
-			<p style="font-size:13px;"> Copyright &copy; Online Shoe Store Inc. 2025 Brought To You by <b>Prem & jeet</b></a></p>
+			<p style="font-size:13px;"> Copyright &copy; Online Shoe Store Inc. 2025 Brought To You by <b>Prem & Jeet</b></a></p>
 		</div>
 
 			<div id="foot">
