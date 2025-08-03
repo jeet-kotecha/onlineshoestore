@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ShoeBuzz</title>
+	<title>Shoe Buzz</title>
 	<link rel = "stylesheet" type = "text/css" href="css/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<script src="js/bootstrap.js"></script>
@@ -26,7 +26,7 @@
 <body>
 	<div id="header">
 		<img src="img/logo.jpg">
-		<label>ShoeBuzz</label>
+		<label>Shoe Buzz</label>
 
 			<?php
 				$id = (int) $_SESSION['id'];
@@ -154,7 +154,7 @@
 							echo "<a href='details.php?id=".$fetch['product_id']."'><img class='img-polaroid' src='photo/".$fetch['product_image']."' height = '300px' width = '300px'></a>";
 							echo "".$fetch['product_name']."";
 							echo "<br />";
-							echo "P ".$fetch['product_price']."";
+							echo "Price :".$fetch['product_price']."";
 							echo "<br />";
 							echo "<h3 class='text-info' > Size: ".$fetch['product_size']."</h3>";
 							echo "</center>";
@@ -181,10 +181,10 @@
 			<div id="foot">
 				<h4>Links</h4>
 					<ul>
-						<a href="http://www.facebook.com/OnlineShoeStore"><li>Facebook</li></a>
-						<a href="http://www.twitter.com/OnlineShoeStore"><li>Twitter</li></a>
-						<a href="http://www.pinterest.com/OnlineShoeStore"><li>Pinterest</li></a>
-						<a href="http://www.tumblr.com/OnlineShoeStore"><li>Tumblr</li></a>
+						<a href="http://www.facebook.com/shoebuzz"><li>Facebook</li></a>
+						<a href="http://www.twitter.com/shoebuzz"><li>Twitter</li></a>
+						<a href="http://www.pinterest.com/shoebuzz"><li>Pinterest</li></a>
+						<a href="http://www.tumblr.com/shoebuzz"><li>Tumblr</li></a>
 					</ul>
 			</div>
 	</div>

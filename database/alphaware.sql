@@ -92,33 +92,7 @@ CREATE TABLE `product` (
 --
 
 INSERT INTO `product` (`product_id`, `product_name`, `product_price`, `product_size`, `product_image`, `brand`, `category`) VALUES
-(3, 'Nike Air Max Neon', '12000', '7', '1141103372nike15.jpg', 'Nike', 'Men'),
-(4, 'Nike Air Max Green', '12000', '8', '832975975nike5.jpg', 'Nike', 'Men'),
-(6, 'Adidas Gent', '13000', '9', '13634363832010-Adidas-Men-Men-Shoes-2.jpg', 'Adidas', 'Men'),
-(7, 'Adidas 599 LRG', '15000', '8', '872686791Adidas Men Shoes 599_LRG.jpg', 'Adidas', 'Men'),
-(8, 'Lebron 11 Siver', '18000', '8', '124030907nike13.jpg', 'Nike', 'Men'),
-(9, 'Adidas Adizero Black', '18000', '10', '14237873113-adidas-Rose-Dominate-Adizero-shoes.jpg', 'Adidas', 'Men'),
-(10, 'Adidas Adizero Blue', '18000', '10', '1024158586Adidas_Rose_Shoes_009.jpg', 'Adidas', 'Men'),
-(11, 'Lebron 11 Red', '18000', '9', '567507982nike10.jpg', 'Nike', 'Men'),
-(13, 'Nike Hypervenom', '10000', '12', '1312216564nike-hypervenoms-customize-fg-2015-outlet-neymar-colors-soccer-shoes-professional.jpg', 'Nike', 'Women'),
-(14, 'Nike C Lou Generation', '12000', '11', '533123642013_Discount_Nike_C_Luo_9_Generation_Online_Blue_Green.jpg', 'Nike', 'Women'),
-(15, 'Nike Mercurial Vapor 7 Superfly II FG Lightning', '12000', '12', '1157463277Nike-Mercurial-Vapor-7-Superfly-III-FG-Lightning-Soccer-Shoes-Fluorescent-Yellow-Black.jpg', 'Nike', 'Women'),
-(16, 'Nike Magista Obra', '12000', '9', '335092704Cheap-Nike-Magista-Obra-.jpg', 'Nike', 'Women'),
-(17, 'Adidas Chaussures', '12000', '8', '697721412chaussures001.jpg', 'Adidas', 'Women'),
-(19, 'Nike Flyknit Lunar Green Blue', '8000', '9', '745184160Nike_Nike_Flyknit_Lunar_2_Mens_Fluorescent_Green_Blue_Kids_Shoes_2015_Outlet.jpg', 'Nike', 'Kids'),
-(20, 'Nike Flyknit Lunar Sea Blue', '8000', '10', '1239262802Nike_Nike_Flyknit_Lunar_2_Mens_Sky_Blue_Sea_Blue_Kids_Shoes_2015_Cheap.jpg', 'Nike', 'Kids'),
-(21, 'Nike Flyknit Green', '8000', '12', '470680173flyknit.jpg', 'Nike', 'Kids'),
-(26, 'Nike Hypervenom Phantom', '15000', '8', '15416832542014-Nike-Hypervenom-Phantom-FG-Red-Fluorescent-Yellow.jpg', 'Nike', 'Women'),
-(28, 'Adidas Adizero Red', '18000', '9', '153564340adidas-all-star-Men-shoes-adizero-shadow.jpg', 'Adidas', 'Men'),
-(29, 'Adidas Gents', '10000', '9', '14124685402-Adidas-gents-shoes-collection-2015-01.jpg', 'Adidas', 'Kids'),
-(30, 'Nike Flyknit Gray & Pink', '8000', '11', '948731815nw1.jpg', 'Nike', 'Kids'),
-(31, 'Reebok Zigtech Shake', '10000', '10', '245113227reebok-zigtech-shake-Kids-shoes-offer-lemonstore-1405-13-lemonstore@1.jpg', 'Reebok', 'Kids'),
-(157, 'Reebok Blast', '10000', '9', '547866585reebok-blast-profile.jpg', 'Reebok', 'feature'),
-(21561, 'Lebron 11 ', '15000', '10', '1125171488heat-lebron-11-17.jpg', 'Nike', 'feature'),
-(51292, 'Adidas Adizero F50', '10000', '10', '1272267959adizero-F50-FG.jpg', 'Adidas', 'feature'),
-(358159, 'Flyknit 360', '8000', '8', '40329068flyknit.jpg', 'Nike', 'feature'),
-(431860, 'Nike Hypervenom Neymar Jr.', '12000', '9', '852236910hypervenom.png', 'Nike', 'feature'),
-(961461, 'Adidas Bounce Titan', '9000', '9', '367527167Rabatt_Prezzo_Ridotto_Adidas_Bounce_Titan_Herren_White_Schwarz_Kids_Sho_Online.jpg', 'Adidas', 'feature');
+;
 
 -- --------------------------------------------------------
 
@@ -137,35 +111,7 @@ CREATE TABLE `stock` (
 --
 
 INSERT INTO `stock` (`stock_id`, `product_id`, `qty`) VALUES
-(1, 71339, 20),
-(2, 82631, 30),
-(3, 3, 20),
-(4, 4, 20),
-(5, 6, 20),
-(6, 7, 20),
-(7, 8, 20),
-(8, 9, 20),
-(9, 10, 19),
-(10, 11, 23),
-(11, 13, 20),
-(12, 14, 20),
-(13, 15, 20),
-(14, 16, 20),
-(15, 17, 20),
-(16, 19, 20),
-(17, 20, 20),
-(18, 21, 20),
-(19, 26, 13),
-(20, 28, 20),
-(21, 29, 18),
-(22, 30, 20),
-(23, 31, 20),
-(26, 431860, 40),
-(27, 21561, 30),
-(28, 358159, 30),
-(29, 157, 25),
-(30, 51292, 20),
-(31, 961461, 10);
+;
 
 -- --------------------------------------------------------
 

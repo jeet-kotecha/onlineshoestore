@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ShoeBuzz</title>
+	<title>Shoe Buzz</title>
 	<link rel="icon" href="img/logo.jpg" />
 	<link rel = "stylesheet" type = "text/css" href="css/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -27,7 +27,7 @@
 <body>
 	<div id="header">
 		<img src="img/logo.jpg">
-		<label>ShoeBuzz</label>
+		<label>Shoe Buzz</label>
 
 			<?php
 				/*$id = (int) $_SESSION['id'];
@@ -243,10 +243,10 @@ if (isset($_SESSION['cart']))
 			<div id="foot">
 				<h4>Links</h4>
 					<ul>
-						<a href="http://www.facebook.com/OnlineShoeStore"><li>Facebook</li></a>
-						<a href="http://www.twitter.com/OnlineShoeStore"><li>Twitter</li></a>
-						<a href="http://www.pinterest.com/OnlineShoeStore"><li>Pinterest</li></a>
-						<a href="http://www.tumblr.com/OnlineShoeStore"><li>Tumblr</li></a>
+						<a href="http://www.facebook.com/shoebuzz"><li>Facebook</li></a>
+						<a href="http://www.twitter.com/shoebuzz"><li>Twitter</li></a>
+						<a href="http://www.pinterest.com/shoebuzz"><li>Pinterest</li></a>
+						<a href="http://www.tumblr.com/shoebuzz"><li>Tumblr</li></a>
 					</ul>
 			</div>
 
