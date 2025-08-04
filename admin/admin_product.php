@@ -190,7 +190,7 @@
 						$id = $fetch['product_id'];
 				?>
 				<tr class="del<?php echo $id?>">
-					<td><img class="img-polaroid" src = "../photo/<?php echo $fetch['product_image']?>" height = "70px" width = "80px"></td>
+					<td><img class="img-polaroid" src = "../img/mensshoe<?php echo $fetch['product_image']?>" height = "70px" width = "80px"></td>
 					<td><?php echo $fetch['product_name']?></td>
 					<td><?php echo $fetch['product_price']?></td>
 					<td><?php echo $fetch['product_size']?></td>

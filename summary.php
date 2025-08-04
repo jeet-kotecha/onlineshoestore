@@ -163,7 +163,8 @@ $paypal_id='yhannaki@gmail.com'; // Business email ID
     <input type="hidden" name="handling" value="0">
     <input type="hidden" name="cancel_return" value="function/cancel.php">
     <input type="hidden" name="return" value="function/success.php">
-    <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<!--    <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"> -->
+	<input type="button" class="btn btn-success" name="edit" value="Purchase"></a>
     <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
     </form>
 </div>
@@ -177,12 +178,12 @@ $paypal_id='yhannaki@gmail.com'; // Business email ID
 			</div>
 				<div class="modal-body">
 					<form method="post">
-					<center>
+					<!--<center>
 						<input type="image" src="images/button.jpg" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!"  />
 						<br/>
 						<br/>
 						<button class="btn btn-lg" >Cash</button>
-					</center>
+					</center> -->
 				</div>
 			<div class="modal-footer">
 				<button class="btn btn-danger" data-dismiss="modal" aria-hidden="true">Close</button>

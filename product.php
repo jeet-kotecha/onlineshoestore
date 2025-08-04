@@ -147,7 +147,7 @@
 						}else{
 							echo "<div class='float'>";
 							echo "<center>";
-							echo "<a href='details.php?id=".$fetch['product_id']."'><img class='img-polaroid' src='photo/".$fetch['product_image']."' height = '300px' width = '300px'></a>";
+							echo "<a href='details.php?id=".$fetch['product_id']."'><img class='img-polaroid' src='img/menshoes/".$fetch['product_image']."' height = '300px' width = '300px'></a>";
 							echo "".$fetch['product_name']."";
 							echo "<br />";
 							echo "P ".$fetch['product_price']."";
