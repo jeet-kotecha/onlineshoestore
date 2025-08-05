@@ -172,7 +172,7 @@ if (isset($_SESSION['cart']))
 
 
 		echo "<tr class='table'>";
-		echo "<td><h4><img height='70px' width='70px' src='photo/".$image."'></h4></td>";
+		echo "<td><h4><img height='70px' width='70px' src='img/".$image."'></h4></td>";
 		echo "<td><h4><input type='hidden' required value='".$id."' name='pid[]'> ".$name."</h4></td>";
 		echo "<td><h4>".$product_size."</h4></td>";
 		echo "<td><h4><input type='hidden' required value='".$x."' name='qty[]'> ".$x."</h4></td>";
@@ -237,7 +237,7 @@ if (isset($_SESSION['cart']))
 	<div id="footer">
 		<div class="foot">
 			<!-- <label style="font-size:17px;"> Copyrght &copy; </label> -->
-			<p style="font-size:13px;"> Copyright &copy; Online Shoe Store Inc. 2025 Brought To You by <b>Prem & Jeet</b></a></p>
+			<p style="font-size:13px;"> Copyright &copy; Shoe Buzz Inc. 2025 Brought To You by <b>Prem & Jeet</b></a></p>
 		</div>
 
 			<div id="foot">

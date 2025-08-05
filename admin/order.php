@@ -152,7 +152,7 @@
 									}
 									else
 									{
-										move_uploaded_file($temp,"../photo/".$name);
+										move_uploaded_file($temp,"../img/".$name);
 
 
 				$q1 = $conn->query("INSERT INTO product ( product_id,product_name, product_price, product_size, product_image, brand, category)

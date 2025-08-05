@@ -109,8 +109,8 @@
 
 		<div id="content">
 			<legend><h3>Privacy Policy</h3></legend>
-				<p>The Online Shoe Store Incorporated respect the privacy of the visitors
-					to the Online Shoe Store.com website and the local websites connected with it, and take great care to protect your
+				<p>The Shoe Buzz Incorporated respect the privacy of the visitors
+					to the Shoe Buzz.com website and the local websites connected with it, and take great care to protect your
 					information.. This privacy policy tells you what information we collect from you, how we may use it and
 					the steps we take to ensure that it is protected.
 				</p>
@@ -120,7 +120,7 @@
 						security measures. Your personal information is contained behind secured networks and is only accessible
 						by a limited number of people, who have special access rights and are required to keep the information
 						confidential.Please keep in mind though that whenever you give out personal information online there is a
-						risk that third parties may intercept and use that information. While Online Shoe Store strives to protect its user's
+						risk that third parties may intercept and use that information. While Shoe Buzz strives to protect its user's
 						personal information and privacy, we cannot guarantee the security of any information you disclose online
 						and you do so at your own risk.</p>
 			<hr>
@@ -146,7 +146,7 @@
 	<div id="footer">
 		<div class="foot">
 			<!-- <label style="font-size:17px;"> Copyrght &copy; </label> -->
-			<p style="font-size:13px;"> Copyright &copy; Online Shoe Store Inc. 2025 Brought To You by <b>Prem & Jeet</b></a></p>
+			<p style="font-size:13px;"> Copyright &copy; Shoe Buzz Inc. 2025 Brought To You by <b>Prem & Jeet</b></a></p>
 		</div>
 
 			<div id="foot">

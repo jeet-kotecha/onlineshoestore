@@ -112,7 +112,7 @@
 		?>
 				<div>
 					<center>
-						<img class="img-polaroid" style="width:400px; height:350px;" src="photo/<?php echo $row['product_image']; ?>">
+						<img class="img-polaroid" style="width:400px; height:350px;" src="img/<?php echo $row['product_image']; ?>">
 						<h2 class="text-uppercase bg-primary"><?php echo $row['product_name']?></h2>
 						<h3 class="text-uppercase">Php <?php echo $row['product_price']?></h3>
 						<h3 class="text-uppercase">Size: <?php echo $row['product_size']?></h3>
@@ -145,7 +145,7 @@
 						<br />
 						<h4>Total: P <?php echo $row['product_price']; ?> </h4>
 						<br />
-						<input type="checkbox" required> I Agree the <a href="#terms" data-toggle="modal"> Terms and Condition</a> of Online Shoe Store Inc.
+						<input type="checkbox" required> I Agree the <a href="#terms" data-toggle="modal"> Terms and Condition</a> of Shoe Buzz Inc.
 					</center>
 				</div>
 			<div class="modal-footer">
@@ -161,7 +161,7 @@
 		<div id="terms" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:400px;">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-				<h3 id="myModalLabel">Online Shoe Store Inc. Terms and Condition</h3>
+				<h3 id="myModalLabel">Shoe Buzz Inc. Terms and Condition</h3>
 			</div>
 				<div class="modal-body">
 					<ul>
@@ -188,7 +188,7 @@
 	<div id="footer">
 		<div class="foot">
 			<!-- <label style="font-size:17px;"> Copyrght &copy; </label> -->
-			<p style="font-size:13px;"> Copyright &copy; Online Shoe Store Inc. 2025 Brought To You by <b>Prem & Jeet</b></a></p>
+			<p style="font-size:13px;"> Copyright &copy; Shoe Buzz Inc. 2025 Brought To You by <b>Prem & Jeet</b></a></p>
 		</div>
 
 			<div id="foot">

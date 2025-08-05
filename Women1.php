@@ -143,7 +143,7 @@
 					if ($stock['qty'] > 5) {
 						echo "<div class='float'>";
 						echo "<center>";
-						echo "<a href='details.php?id={$fetch['product_id']}'><img class='img-polaroid' src='photo/{$fetch['product_image']}' height='300px' width='300px'></a>";
+						echo "<a href='details.php?id={$fetch['product_id']}'><img class='img-polaroid' src='img/{$fetch['product_image']}' height='300px' width='300px'></a>";
 						echo "{$fetch['product_name']}<br />";
 						echo "Price {$fetch['product_price']}<br />";
 						echo "<h3 class='text-info'>Size: {$fetch['product_size']}</h3>";
@@ -165,7 +165,7 @@
 	<div id="footer">
 		<div class="foot">
 			<!-- <label style="font-size:17px;"> Copyrght &copy; </label> -->
-			<p style="font-size:13px;"> Copyright &copy; Online Shoe Store Inc. 2025 Brought To You by <b>Prem & Jeet</b></a></p>
+			<p style="font-size:13px;"> Copyright &copy; Shoe Buzz Inc. 2025 Brought To You by <b>Prem & Jeet</b></a></p>
 		</div>
 
 			<div id="foot">

@@ -132,7 +132,7 @@
 									}
 									else
 									{
-										move_uploaded_file($temp,"../photo/".$name);
+										move_uploaded_file($temp,"../img/".$name);
 
 
 				$q1 = $conn->query("INSERT INTO product ( product_id,product_name, product_price, product_size, product_image, brand, category)
@@ -191,7 +191,7 @@
 						$id = $fetch['product_id'];
 				?>
 				<tr class="del<?php echo $id?>">
-					<td><img class="img-polaroid" src = "../photo/<?php echo $fetch['product_image']?>" height = "70px" width = "80px"></td>
+					<td><img class="img-polaroid" src = "../img/<?php echo $fetch['product_image']?>" height = "70px" width = "80px"></td>
 					<td><?php echo $fetch['product_name']?></td>
 					<td><?php echo $fetch['product_price']?></td>
 					<td><?php echo $fetch['product_size']?></td>
