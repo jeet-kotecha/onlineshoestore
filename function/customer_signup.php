@@ -8,9 +8,8 @@
 	$lastname=$_POST['lastname'];
 	$address=$_POST['address'];
 	$country=$_POST['country'];
-	$zipcode=$_POST['zipcode'];	
+	$pincode=$_POST['pincode'];	
 	$mobile=$_POST['mobile'];
-	$telephone=$_POST['telephone'];
 	$email=$_POST['email'];
 	$password=$_POST['password'];
 	$query = $conn->query("SELECT * FROM `customer` WHERE `email` = '$email'");
@@ -22,8 +21,8 @@
 			
 			else
 				{
-					$conn->query ("INSERT INTO customer (firstname, mi, lastname, address, country, zipcode, mobile, telephone, email, password)
-					VALUES ('$firstname', '$mi', '$lastname', '$address', '$country', '$zipcode', '$mobile', '$telephone', '$email', '$password')") 
+					$conn->query ("INSERT INTO customer (firstname, mi, lastname, address, country, pincode, mobile, email, password)
+					VALUES ('$firstname', '$mi', '$lastname', '$address', '$country', '$pincode', '$mobile', '$email', '$password')") 
 					or die(mysqli_error());	
 				}				
 					

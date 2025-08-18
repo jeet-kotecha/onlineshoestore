@@ -11,15 +11,14 @@
 				$lastname=$_POST['lastname'];
 				$address=$_POST['address'];
 				$country=$_POST['country'];
-				$zipcode=$_POST['zipcode'];	
+				$pincode=$_POST['pincode'];	
 				$mobile=$_POST['mobile'];
-				$telephone=$_POST['telephone'];
 				$email=$_POST['email'];
 				$password=$_POST['password'];
 				
 				$conn->query("UPDATE customer SET firstname='$firstname', mi='$mi', lastname='$lastname', address='$address',
-							country='$country', zipcode='$zipcode', mobile='$mobile', telephone='$telephone', 
-							email='$email', password='$password' WHERE customerid='$id' ") or die (mysqli_error());
+							country='$country', pincode='$pincode', mobile='$mobile',email='$email', password='$password'
+							WHERE customerid='$id' ") or die (mysqli_error());
 							
 					header("location:../home.php");
 			}

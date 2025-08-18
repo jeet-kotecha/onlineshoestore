@@ -67,14 +67,12 @@
 									<td class="profile">Country:</td><td class="profile"><?php echo $fetch['country'];?></td>
 								</tr>
 								<tr>
-									<td class="profile">ZIP Code:</td><td class="profile"><?php echo $fetch['zipcode'];?></td>
+									<td class="profile">Pin Code:</td><td class="profile"><?php echo $fetch['pincode'];?></td>
 								</tr>
 								<tr>
 									<td class="profile">Mobile Number:</td><td class="profile"><?php echo $fetch['mobile'];?></td>
 								</tr>
-								<tr>
-									<td class="profile">Telephone Number:</td><td class="profile"><?php echo $fetch['telephone'];?></td>
-								</tr>
+								
 								<tr>
 									<td class="profile">Email:</td><td class="profile"><?php echo $fetch['email'];?></td>
 								</tr>
@@ -167,19 +165,11 @@
 	<br />
 	<div id="footer">
 		<div class="foot">
-			<!-- <label style="font-size:17px;"> Copyrght &copy; </label> -->
+			
 			<p style="font-size:13px;"> Copyright &copy; Shoe Buzz Inc. 2025 Brought To You by <b>Prem & Jeet</b></a></p>
 		</div>
 
-			<div id="foot">
-				<h4>Links</h4>
-					<ul>
-						<a href="http://www.facebook.com/shoebuzz"><li>Facebook</li></a>
-						<a href="http://www.twitter.com/shoebuzz"><li>Twitter</li></a>
-						<a href="http://www.pinterest.com/shoebuzz"><li>Pinterest</li></a>
-						<a href="http://www.tumblr.com/shoebuzz"><li>Tumblr</li></a>
-					</ul>
-			</div>
+			
 	</div>
 </body>
 </html>

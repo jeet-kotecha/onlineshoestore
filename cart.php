@@ -68,14 +68,12 @@
 									<td class="profile">Country:</td><td class="profile"><?php echo $fetch['country'];?></td>
 								</tr>
 								<tr>
-									<td class="profile">ZIP Code:</td><td class="profile"><?php echo $fetch['zipcode'];?></td>
+									<td class="profile">Pin Code:</td><td class="profile"><?php echo $fetch['pincode'];?></td>
 								</tr>
 								<tr>
 									<td class="profile">Mobile Number:</td><td class="profile"><?php echo $fetch['mobile'];?></td>
 								</tr>
-								<tr>
-									<td class="profile">Telephone Number:</td><td class="profile"><?php echo $fetch['telephone'];?></td>
-								</tr>
+								
 								<tr>
 									<td class="profile">Email:</td><td class="profile"><?php echo $fetch['email'];?></td>
 								</tr>
@@ -180,7 +178,7 @@ if (isset($_SESSION['cart']))
 		echo "<td><h4>".$price."</h4></td>";
 		echo "<td><h4><a href='cart.php?id=".$id."&action=add'><i class='icon-plus-sign'></i></a></td>";
 		echo "<td><h4><a href='cart.php?id=".$id."&action=remove'><i class='icon-minus-sign'></i></a></td>";
-		echo "<td><strong><h3>P ".$line_cost."</h3></strong>";
+		echo "<td><strong><h3>Price:".$line_cost."</h3></strong>";
 		echo "</tr>";
 		}
 
@@ -190,7 +188,7 @@ if (isset($_SESSION['cart']))
 		echo "<td></td>";
 		echo "<td></td>";
 		echo "<td><h2>TOTAL:</h2></td>";
-		echo "<td><strong><input type='hidden' value='".$total."' required name='total'><h2 class='text-danger'>P ".$total."</h2></strong></td>";
+		echo "<td><strong><input type='hidden' value='".$total."' required name='total'><h2 class='text-danger'>Price :".$total."</h2></strong></td>";
 		echo "<td></td>";
 		echo "<td><a class='btn btn-danger btn-sm pull-right' href='cart.php?id=".$id."&action=empty'><i class='fa fa-trash-o'></i> Empty cart</a></td>";
 		echo "</tr>";
@@ -237,19 +235,11 @@ if (isset($_SESSION['cart']))
 <br />
 	<div id="footer">
 		<div class="foot">
-			<!-- <label style="font-size:17px;"> Copyrght &copy; </label> -->
+			
 			<p style="font-size:13px;"> Copyright &copy; Shoe Buzz Inc. 2025 Brought To You by <b>Prem & Jeet</b></a></p>
 		</div>
 
-			<div id="foot">
-				<h4>Links</h4>
-					<ul>
-						<a href="http://www.facebook.com/shoebuzz"><li>Facebook</li></a>
-						<a href="http://www.twitter.com/shoebuzz"><li>Twitter</li></a>
-						<a href="http://www.pinterest.com/shoebuzz"><li>Pinterest</li></a>
-						<a href="http://www.tumblr.com/shoebuzz"><li>Tumblr</li></a>
-					</ul>
-			</div>
+			
 	</div>
 </body>
 </html>

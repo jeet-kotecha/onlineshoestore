@@ -33,7 +33,7 @@
 				<li><a href="#login"   data-toggle="modal">Login</a></li>
 			</ul>
 	</div>
-		<div id="login" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:400px;">
+		<div id="login" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:400px;"> 
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
 				<h3 id="myModalLabel">Login...</h3>
@@ -64,10 +64,9 @@
 						<input type="text" name="mi" placeholder="Middle Initial" maxlength="1" required>
 						<input type="text" name="lastname" placeholder="Lastname" required>
 						<input type="text" name="address" placeholder="Address" style="width:430px;"required>
-						<input type="text" name="country" placeholder="Province" required>
-						<input type="text" name="zipcode" placeholder="ZIP Code" required maxlength="4">
+						<input type="text" name="country" placeholder="Country" required>
+						<input type="text" name="pincode" placeholder="Pin Code" required maxlength="6">
 						<input type="text" name="mobile" placeholder="Mobile Number" maxlength="11">
-						<input type="text" name="telephone" placeholder="Telephone Number" maxlength="8">
 						<input type="email" name="email" placeholder="Email" required>
 						<input type="password" name="password" placeholder="Password" required>
 						</center>
@@ -109,12 +108,10 @@
 		</video>
 	</div> -->
 </div>
-
 	<div id="content">
 		<div id="product" style="position:relative; margin-top:5%;">
 			<center><h2><legend>Feature Items</legend></h2></center>
 			<br />
-
 			<?php
 
 				$query = $conn->query("SELECT *FROM product WHERE category='feature' ORDER BY product_id DESC") or die (mysqli_error());
@@ -143,33 +140,20 @@
 							echo "</center>";
 							echo "</div>";
 						}
-
 						}
 			?>
 		</div>
-
-
-
 	</div>
-
 	<br />
 </div>
 	<br />
 	<div id="footer">
 		<div class="foot">
-			<!-- <label style="font-size:17px;"> Copyrght &copy; </label> -->
+			
 			<p style="font-size:13px;"> Copyright &copy; Shoe Buzz Inc. 2025 Brought To You by <b>Prem & Jeet</b></a></p>
 		</div>
 
-			<div id="foot">
-				<h4>Links</h4>
-					<ul>
-						<a href="http://www.facebook.com/shoebuzz"><li>Facebook</li></a>
-						<a href="http://www.twitter.com/shoebuzz"><li>Twitter</li></a>
-						<a href="http://www.pinterest.com/shoebuzz"><li>Pinterest</li></a>
-						<a href="http://www.tumblr.com/shoebuzz"><li>Tumblr</li></a>
-					</ul>
-			</div>
+			
 	</div>
 </body>
 </html>

@@ -74,10 +74,9 @@
 				<tr style="font-size:20px;">
 					<th>Name</th>
 					<th>Address</th>
-					<th>Province</th>
-					<th>Zipcode</th>
+					<th>Country</th>
+					<th>pincode</th>
 					<th>Mobile</th>
-					<th>Telephone</th>
 					<th>Email</th>
 				</tr>
 				</thead>
@@ -90,9 +89,8 @@
 					<td><?php echo $fetch['firstname'];?>&nbsp;<?php echo $fetch['mi'];?>&nbsp;<?php echo  $fetch['lastname'];?></td>
 					<td><?php echo $fetch['address']?></td>
 					<td><?php echo $fetch['country']?></td>
-					<td><?php echo $fetch['zipcode']?></td>
+					<td><?php echo $fetch['pincode']?></td>
 					<td><?php echo $fetch['mobile']?></td>
-					<td><?php echo $fetch['telephone']?></td>
 					<td><?php echo $fetch['email']?></td>
 				</tr>
 				<?php

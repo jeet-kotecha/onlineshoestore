@@ -68,14 +68,12 @@
 									<td class="profile">Country:</td><td class="profile"><?php echo $fetch['country'];?></td>
 								</tr>
 								<tr>
-									<td class="profile">ZIP Code:</td><td class="profile"><?php echo $fetch['zipcode'];?></td>
+									<td class="profile">Pin Code:</td><td class="profile"><?php echo $fetch['pincode'];?></td>
 								</tr>
 								<tr>
 									<td class="profile">Mobile Number:</td><td class="profile"><?php echo $fetch['mobile'];?></td>
 								</tr>
-								<tr>
-									<td class="profile">Telephone Number:</td><td class="profile"><?php echo $fetch['telephone'];?></td>
-								</tr>
+								
 								<tr>
 									<td class="profile">Email:</td><td class="profile"><?php echo $fetch['email'];?></td>
 								</tr>

@@ -64,9 +64,8 @@ CREATE TABLE `customer` (
   `lastname` varchar(50) NOT NULL,
   `address` varchar(100) NOT NULL,
   `country` varchar(50) NOT NULL,
-  `zipcode` varchar(20) NOT NULL,
+  `pincode` varchar(20) NOT NULL,
   `mobile` varchar(20) NOT NULL,
-  `telephone` varchar(20) NOT NULL,
   `email` varchar(50) NOT NULL,
   `password` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;

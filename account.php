@@ -55,9 +55,8 @@
 									$lastname=$fetch['lastname'];
 									$address=$fetch['address'];
 									$country=$fetch['country'];
-									$zipcode=$fetch['zipcode'];
+									$pincode=$fetch['pincode'];
 									$mobile=$fetch['mobile'];
-									$telephone=$fetch['telephone'];
 									$email=$fetch['email'];
 									$password=$fetch['password'];
 									$customerid=$fetch['customerid'];
@@ -81,16 +80,13 @@
 									<td>Address:</td><td><input type="text" name="address" placeholder="Address" style="width:430px;"required value="<?php echo $address;?>"></td>
 								</tr>
 								<tr>
-									<td>Province:</td><td><input type="text" name="country" placeholder="Province" required value="<?php echo $country;?>"></td>
+									<td>Country:</td><td><input type="text" name="country" placeholder="Country" required value="<?php echo $country;?>"></td>
 								</tr>
 								<tr>
-									<td>ZIP Code:</td><td><input type="text" name="zipcode" placeholder="ZIP Code" required value="<?php echo $zipcode;?>" maxlength="4"></td>
+									<td>Pin Code:</td><td><input type="text" name="pincode" placeholder="Pin Code" required value="<?php echo $pincode;?>" maxlength="6"></td>
 								</tr>
 								<tr>
 									<td>Mobile Number:</td><td><input type="text" name="mobile" placeholder="Mobile Number" value="<?php echo $mobile;?>" maxlength="11"></td>
-								</tr>
-								<tr>
-									<td>Telephone Number:</td><td><input type="text" name="telephone" placeholder="Telephone Number" value="<?php echo $telephone;?>" maxlength="8"></td>
 								</tr>
 								<tr>
 									<td>Email:</td><td><input type="email" name="email" placeholder="Email" required value="<?php echo $email;?>"></td>

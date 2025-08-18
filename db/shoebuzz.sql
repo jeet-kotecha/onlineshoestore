@@ -80,9 +80,8 @@ CREATE TABLE `customer` (
   `lastname` varchar(50) NOT NULL,
   `address` varchar(100) NOT NULL,
   `country` varchar(50) NOT NULL,
-  `zipcode` varchar(20) NOT NULL,
+  `pincode` varchar(20) NOT NULL,
   `mobile` varchar(20) NOT NULL,
-  `telephone` varchar(20) NOT NULL,
   `email` varchar(50) NOT NULL,
   `password` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
@@ -91,8 +90,8 @@ CREATE TABLE `customer` (
 -- Dumping data for table `customer`
 --
 
-INSERT INTO `customer` (`customerid`, `firstname`, `mi`, `lastname`, `address`, `country`, `zipcode`, `mobile`, `telephone`, `email`, `password`) VALUES
-(1, 'TestF', 'M', 'Test', 'Test Address 1', 'Test Province', '3620', '9898989898', '98989898', 'test@gmail.com', 'test123');
+INSERT INTO `customer` (`customerid`, `firstname`, `mi`, `lastname`, `address`, `country`, `pincode`, `mobile`,`email`, `password`) VALUES
+(1, 'TestF', 'M', 'Test', 'Test Address 1', 'Test Country', '3620', '9898989898','test@gmail.com', 'test123');
 
 -- --------------------------------------------------------
 
