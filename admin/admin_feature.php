@@ -23,7 +23,7 @@
 	<script src="../js/transition.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
 	<script src="../javascripts/filter.js" type="text/javascript" charset="utf-8"></script>
-	<script src="../jscript/jquery-1.9.1.js" type="text/javascript"></script>
+	<script src="../jscript/" type="text/javascript"></script>
 
 		<!--Le Facebox-->
 		<link href="../facefiles/facebox.css" media="screen" rel="stylesheet" type="text/css" />
