@@ -145,7 +145,7 @@
 
 				?>
 
-	<div id="leftnav">
+	<div class="anav">
 		<ul>
 			<li><a href="admin_home.php" style="color:#333;">Dashboard</a></li>
 			<li><a href="admin_home.php">Products</a>
