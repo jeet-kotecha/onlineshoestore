@@ -26,7 +26,7 @@
 </head>
 <body>
 	<div id="header">
-		<img src="img/logo.jpg">
+		<img src="img/logo1.jpg">
 		<label>Shoe Buzz</label>
 			<ul>
 				<li><a href="#signup"   data-toggle="modal">Sign Up</a></li>

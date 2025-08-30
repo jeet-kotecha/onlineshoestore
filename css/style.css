@@ -86,18 +86,19 @@
 	top: 10px;
 }
 
-.nav {
+
+.nav1 {
 	text-indent: 10px;
 	font-size: 15px;
 }
 
-.nav ul {
+.nav1 ul {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.nav ul li {
+.nav1 ul li {
 	display: inline;
 	position: relative;
 	display: flex;
@@ -105,7 +106,7 @@
 	align-items: center;
 }
 
-.nav a {
+.nav1 a {
   text-decoration: none !important;
   color: black;
   padding: 10px 15px;
@@ -115,12 +116,12 @@
 }
 
 /* Hover color change */
-.nav a:hover {
+.nav1 a:hover {
   color: #ff6600; /* matches your orange theme */
 }
 
 /* Underline effect */
-.nav a::after {
+.nav1 a::after {
   content: '';
   position: absolute;
   width: 0%;
@@ -132,10 +133,9 @@
 }
 
 /* Expand underline on hover */
-.nav a:hover::after {
+.nav1 a:hover::after {
   width: 100%;
 }
-
 #carousel {
 	position: relative;
 	float: left;

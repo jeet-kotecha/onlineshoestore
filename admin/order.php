@@ -168,14 +168,10 @@
 	<div class="anav">
 		<ul>
 			<li><a href="admin_home.php" style="color:#333;">Dashboard</a></li>
-			<li><a href="admin_home.php">Products</a>
-				<ul>
-					<li><a href="admin_feature.php "style="font-size:15px; margin-left:15px;">Features</a></li>
-					<li><a href="admin_product.php "style="font-size:15px; margin-left:15px;">Men</a></li>
-					<li><a href="admin_Women.php" style="font-size:15px; margin-left:15px;">Women</a></li>
-					<li><a href="admin_Kids.php"style="font-size:15px; margin-left:15px;">Kids</a></li>
-				</ul>
-			</li>
+		    <li><a href="admin_feature.php "style="font-size:15px; margin-left:15px;">Features</a></li>
+			<li><a href="admin_product.php "style="font-size:15px; margin-left:15px;">Men</a></li>
+			<li><a href="admin_Women.php" style="font-size:15px; margin-left:15px;">Women</a></li>
+			<li><a href="admin_Kids.php"style="font-size:15px; margin-left:15px;">Kids</a></li>
 			<li><a href="transaction.php">Transactions</a></li>
 			<li><a href="customer.php">Customers</a></li>
 			<li><a href="message.php">Messages</a></li>
@@ -183,7 +179,7 @@
 		</ul>
 	</div>
 
-	<div id="rightcontent" style="position:absolute; top:10%;">
+	<div id="rightcontent" style="position:absolute; top:25%;">
 			<div class="alert alert-info"><center><h2>Orders</h2></center></div>
 			<br />
 				<div style='width:975px;' class="alert alert-info">
